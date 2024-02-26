@@ -8,6 +8,7 @@
         <artifactId>parent-pom-modules</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
+    <packaging>pom</packaging>
 
     <artifactId>parent-jar-packaging</artifactId>
 
