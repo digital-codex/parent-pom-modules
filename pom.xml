@@ -24,9 +24,11 @@
 
         <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
         <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
+        <native-maven-plugin.version>1.0.0-SNAPSHOT</native-maven-plugin.version>
         <maven-plugin-plugin.version>3.9.0</maven-plugin-plugin.version>
         <maven-surefire-plugin.version>3.2.2</maven-surefire-plugin.version>
         <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
+        <nar-maven-plugin.version>1.0.0-SNAPSHOT</nar-maven-plugin.version>
         <maven-install-plugin.version>3.1.1</maven-install-plugin.version>
         <maven-deploy-plugin.version>3.1.1</maven-deploy-plugin.version>
     </properties>
@@ -45,6 +47,11 @@
                     <version>${maven-compiler-plugin.version}</version>
                 </plugin>
                 <plugin>
+                    <groupId>dev.codex.java.maven</groupId>
+                    <artifactId>native-maven-plugin</artifactId>
+                    <version>${native-maven-plugin.version}</version>
+                </plugin>
+                <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-plugin-plugin</artifactId>
                     <version>${maven-plugin-plugin.version}</version>
@@ -58,6 +65,11 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-jar-plugin</artifactId>
                     <version>${maven-jar-plugin.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>dev.codex.java.maven</groupId>
+                    <artifactId>nar-maven-plugin</artifactId>
+                    <version>${nar-maven-plugin.version}</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
