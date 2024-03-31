@@ -9,9 +9,9 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>parent-pom-packaging</module>
-        <module>parent-jar-packaging</module>
-        <module>parent-maven-plugin-packaging</module>
+        <module>pom-packaging-parent</module>
+        <module>jar-packaging-parent</module>
+        <module>maven-plugin-packaging-parent</module>
     </modules>
 
     <properties>
